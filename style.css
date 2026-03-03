@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: white;
+  scroll-behavior: smooth;
+  margin-top: 120px;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.95);
+  padding: 20px 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+.logo img {
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background:;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 55px;
+  color: red;
+}
+
+button {
+  background: red;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* SECTIONS */
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.dark {
+  background: #1a1a1a;
+}
+
+/* GALERIA */
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+/* REDES */
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.social {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 26px;
+  color: white;
+  transition: 0.4s;
+}
+
+.facebook { background: #1877f2; }
+
+.instagram { 
+  background: linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+}
+
+.youtube { background: #ff0000; }
+
+.tiktok {
+  background: linear-gradient(45deg,#000000,#ff0050,#00f2ea);
+}
+
+.social:hover {
+  transform: scale(1.2);
+}
+
+/* WHATSAPP FLOTANTE */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 65px;
+  height: 65px;
+  background: #25d366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  z-index: 9999;
+  transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.15);
+}
+#particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: black;
+}

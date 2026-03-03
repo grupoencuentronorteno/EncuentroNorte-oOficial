@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!-- ICONOS -->
+<canvas id="particles"></canvas>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<header>
+  <div class="logo">
+    <img src="https://i.imgur.com/vicLHSt.png" alt="Encuentro Norteño Logo">
+  </div>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#musica">Música</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#redes">Redes</a>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <div class="overlay">
+    <h1>Encuentro Norteño</h1>
+    <p>Los Caballeros del Estilo Original</p>
+    <button onclick="scrollToContact()">Contrataciones</button>
+  </div>
+</section>
+
+<section id="nosotros" class="section reveal">
+  <h2>Sobre Nosotros</h2>
+  <p>
+    Somos una agrupación norteña que mezcla tradición y modernidad.
+    Energía, elegancia y pasión en cada escenario.
+  </p>
+</section>
+
+<section id="musica" class="section dark reveal">
+  <h2>Nuestra Música</h2>
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+  </audio>
+</section>
+
+<section id="galeria" class="section reveal">
+  <h2>Galería</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063">
+    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f">
+    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4">
+  </div>
+</section>
+
+<section id="contacto" class="section dark reveal">
+  <h2>Contacto</h2>
+  <button onclick="contacto()">Llamar para contratar</button>
+</section>
+
+<section id="redes" class="section reveal">
+  <h2>Síguenos en Redes Sociales</h2>
+
+  <div class="social-container">
+    <a href="https://www.facebook.com/EncuentroNortenoOfficial/" target="_blank" class="social facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <a href="https://www.instagram.com/encuentronortenooficial/?hl=en%2F" target="_blank" class="social instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://www.youtube.com/@EncuentroNortenoOficial" target="_blank" class="social youtube">
+      <i class="fab fa-youtube"></i>
+    </a>
+
+    <a href="https://www.tiktok.com/@encuentronortenooficial?lang=es" target="_blank" class="social tiktok">
+      <i class="fab fa-tiktok"></i>
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Encuentro Norteño | Todos los derechos reservados
+</footer>
+
+<!-- BOTÓN FLOTANTE WHATSAPP -->
+<a href="https://wa.me/528100000000?text=Hola,%20quiero%20información%20sobre%20contrataciones"
+   class="whatsapp-float"
+   target="_blank">
+   <i class="fab fa-whatsapp"></i>
+</a>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
